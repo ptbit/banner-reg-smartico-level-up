@@ -12,15 +12,15 @@ window.addEventListener('orientationchange', () => {
 });
 
 // padding no-ios
-document.addEventListener('DOMContentLoaded', function () {
-  let date = document.querySelector('.reg__date');
-  let time = document.querySelector('.reg__time');
-  let up = document.querySelector('.reg__up');
-  let fs = document.querySelector('.reg__fs');
-  if (!/iPad|iPhone|iPod|Mac/.test(navigator.userAgent)) {
-    date.classList.add('noios-padding');
-    time.classList.add('noios-padding');
-    up.classList.add('noios-padding');
-    fs.classList.add('noios-padding');
-  }
-});
+// document.addEventListener('DOMContentLoaded', function () {
+//   let date = document.querySelector('.reg__date');
+//   let time = document.querySelector('.reg__time');
+//   let up = document.querySelector('.reg__up');
+//   let fs = document.querySelector('.reg__fs');
+//   if (!/iPad|iPhone|iPod|Mac/.test(navigator.userAgent)) {
+//     date.classList.add('noios-padding');
+//     time.classList.add('noios-padding');
+//     up.classList.add('noios-padding');
+//     fs.classList.add('noios-padding');
+//   }
+// });
