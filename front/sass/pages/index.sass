@@ -43,18 +43,29 @@
   @media screen and (max-width: 1260px)
     background: url("../img/bg-512.jpg") no-repeat 50% 50%/cover
   &__text
-    // border: 1px dashed red
-  &__main
-    // border: 1px dashed yellow
+  // &__main
+  //   position: absolute
+  //   width: 2182px
+  //   height: 1209px
+  //   bottom: -135px
+  //   margin-left: -366px
+  //   margin-right: -860px
+  &__sam
     position: absolute
-    bottom: -40px
-    transform: scale(1.5)
-    transform-origin: bottom
-    left: 0px
-    right: -130px
-
-
-
+    bottom: -45px
+    right: -133px
+    left: 3px
+    width: 115%
+    img
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      bottom: -95px
+      left: -366px
+      width: 2182px
+      height: 1210px
+      background: url('../img/back-960.png')
 
 @media screen and (max-width: 1023px)
   .wrapper
